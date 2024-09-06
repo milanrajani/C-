@@ -9,7 +9,7 @@ string input = Console.ReadLine();
 int[] charcount = new int[256];
 
 //loop through each character in the string and count occurences
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
+ 
 foreach (char c in input)
 {
     charcount[c]++;
