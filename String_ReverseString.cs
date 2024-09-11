@@ -4,7 +4,7 @@ namespace HelloWorld
 {
   class Program
   {
-    static void Reverse()
+    static void Main()
     {
       Console.WriteLine("Enter the Sting: ");
       string input = Console.ReadLine();
@@ -12,7 +12,7 @@ namespace HelloWorld
 
       for (int i = input.Length - 1; i>=0; i--) {
             result = result + input[i];
-      }   
+      }    
       Console.WriteLine(result);
     }
   }
